@@ -1,0 +1,12 @@
+@font-face{
+    font-family:'Roboto-Regular';
+    src:url(../font/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family:'OpenSans-Regular' ;
+    src: url(../font/Open_Sans/OpenSans-Regular.ttf);
+}

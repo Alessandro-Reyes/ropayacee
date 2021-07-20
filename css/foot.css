@@ -1,0 +1,80 @@
+/************************** Footer *************************************/
+.foot{
+    height: 140px;
+    background: rgb(0, 0, 0);
+    color:rgb(39, 36, 36);
+    grid-column: span 3;
+    /* border-radius: 3px; */
+}
+.contenedor .foote{
+    height: 140px;
+    background: rgb(46, 45, 45);
+    color:rgb(39, 36, 36);
+    grid-column: span 3;
+}
+.infor{
+    color:#fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 123px;
+    margin-top: 10px;
+}
+.infor:hover{
+    color:rgb(129, 129, 126);
+    cursor: pointer;
+}
+.prove{
+    color:#fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 123px;
+    margin-top: 4px;
+}
+.prove:hover{
+    color:rgb(129, 129, 126);
+    cursor: pointer;
+}
+.tiend{
+    color:#fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 123px;
+    margin-top: 4px;
+}
+.tiend:hover{
+    color:rgb(129, 129, 126);
+    cursor: pointer;
+}
+.corro{
+    color:#fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 123px;
+    margin-top: 4px;
+}
+.corro:hover{
+    color:rgb(68, 55, 143);
+    cursor: pointer;
+}
+.tell{
+    color:#fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 123px;
+    margin-top: 4px;
+}
+.tell:hover{
+    color:rgb(105, 91, 185);
+    cursor: pointer;
+}
+/***************************************************************/
+.tarjet{
+    width:45px;
+    height: 45px;
+    padding: 8px;
+}
+figure{
+    margin-left: 724px;
+    margin-top: -100px;
+
+}

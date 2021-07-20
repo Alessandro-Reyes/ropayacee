@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ropa & Accesorios</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/search.css" rel="stylesheet" type="text/css">
+    <link href="css/menu.css" rel="stylesheet" type="text/css">
+    <link href="css/logo.css" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+    <link href="css/foot.css" rel="stylesheet" type="text/css">
+    <link href="css/font.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+        <header class="head">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="tienda.html">Tiendas</a></li>
+                    <li><a href="../pages/acerca.html">Acerca</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="index.html"><img src="img/logo/JaDo.png" class="jdo" title="JADO"></a>
+            <div class="submenu_"></div>
+            <div class="submenu"></div>
+            <div class="search">
+              <input type="search" placeholder="Buscar aqui" id="input-search"/>
+              <div class="content-search">
+                <div class="content-table">
+                  <table id="table">
+                    <thead>
+                        <tr>
+                          <td></td>
+                        </tr>
+                        <tbody>
+                          <tr>
+                            <td><a href="#">Inicio</a></td>
+                          </tr>
+                          <td><a href="#">css</a></td>
+                          </tr>
+                          <td><a href="#">index</a></td>
+                          </tr>
+                          <td><a href="#">php</a></td>
+                          </tr>
+                          <td><a href="#">html</a></td>
+                          </tr>
+                          <td><a href="#">juegos</a></td>
+                          </tr>
+                          <td><a href="#">call of duty</a></td>
+                          </tr>
+                        </tbody>
+                    </thead>
+                  </table>
+                </div>
+              </div>
+          </div>
+        </header>
+        <main class="conte">
+          <div class="formulario">
+            <form method="post" action="enviar.php">
+              <label>Nombre:</label>
+              <input type="text" name="nombre"  placeholder="" required/>
+              <br>
+              <label>Asunto:</label>
+              <input type="text" name="asunto"  placeholder="" required/>
+              <br>
+              <label>Telefono:</label>
+              <input type="number" name="telefono"  placeholder="" required/>
+              <br>
+              <label>Direccion:</label>
+              <input type="text" name="direccion" placeholder="" required/>
+              <br>
+              <label>Correo:</label>
+              <input type="email" name="email" placeholder="" required/>
+              <textarea name="mensaje" placeholder="Escriba su comentario aqui....."></textarea>
+              <input type="submit" name="enviar" value="enviar">
+              <button class="btton">RESET</button>
+            </form>
+            
+          </div> 
+          <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6519.1385414341685!2d-89.15331119286597!3d13.70009152700116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ssv!4v1626470597395!5m2!1ses!2ssv" width="535" height="505" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+          </div> 
+        </main>
+        </div>
+        <footer class="foot">
+          <p class="infor" title="Informacion"><a>Informacion</a></p>
+          <p class="prove" title="Provedores"><a>Provedores</a></p>
+          <p class="tiend" title="Tiendas"><a>Tiendas</a></p>
+          <p class="corro" title="Correo"><a>ropacessros@gmail.com</a></p>
+          <p class="tell" title="Telefono"><a>Tel.: (503) 22346722</a></p>
+      </footer>
+    </div>
+    <script src="js/search.js"></script>
+  </body>
+</html>

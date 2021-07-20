@@ -1,0 +1,93 @@
+ .head{
+    margin:auto;
+    width:100%;
+    padding: 0;
+    font-family:'OpenSans-Regular';
+    margin-top: 1px;
+    /* position: fixed; */
+} 
+.hea{
+    grid-column-start: 1;
+    grid-column-end: 4;  
+}
+.nav li a {
+    background-color:#ffffff;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+/*************** ****************** Menu **************************************/
+.contenedor .head nav{
+    margin-left: 183px;
+    
+}
+.contenedor .head nav ul{
+    display: block;
+    /* overflow: hidden; Limpiamos errores de float */
+}
+.contenedor .head nav ul li{
+    display: block;
+    font-weight: 300;
+    
+} 
+.head nav ul li a:link{
+    color:#fff;
+    text-decoration: underline;
+    text-decoration: none;
+}
+.contenedor .head nav ul li{
+    color:rgb(255, 255, 255);
+    font-family:'OpenSans-Regular' ;
+    display: inline-block;
+    padding: 8px;
+    margin-left: 13px;
+    margin-top: 59px;
+}
+.contenedor .head nav li:hover{
+    color:rgb(255, 255, 255);
+    background: rgb(212, 0, 57);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+    transition: .4s;
+}
+/*************** ****************** Menu Fin **************************************/
+
+
+/********************************** Logo *****************************************/
+.jdo{
+    width: 160px;
+    height: 70px;
+    position: absolute;
+    z-index: auto;
+    margin-top: -50px;
+    margin-left: 23px;
+}
+/********************************** Logo Fin *****************************************/
+/**********************************Sub Menu *****************************************/
+.submenu{
+    width: 790px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-left: 212px;
+    border-top-left-radius: 123px 104px ;
+    
+    position: absolute;
+    z-index: auto;
+}
+.submenu_{
+    width: 790px;
+    height: 50px;
+    background-color: rgb(68, 53, 53);
+    margin-top: -100px;
+    margin-left: 212px;
+    border-bottom-left-radius: 123px 104px ;
+    box-shadow: -2px 3px 2px rgb(224, 193, 193);
+    position: absolute;
+    z-index: auto;
+}
